@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Spans-Agency</title>
+  <link rel="stylesheet" href="./css/index.css" type="text/css" />
+</head>
+
+<body>
+
+  <header class="header">
+    <img class="header__logo" src="./images/logo.svg" alt="logo" />
+    <img class="header__burger" src="./images/burger.png" alt="menu" />
+
+    <nav class="header__nav">
+      <a href="#" target="_blank" class="header__item">Расписание</a>
+      <a href="#" target="_blank" class="header__item">Игровые отчёты</a>
+      <a href="#" target="_blank" class="header__item">Статистика</a>
+      <a href="#">Ещё
+        <img class="header__arrow" src="./images/down.png" alt="" />
+      </a>
+    </nav>
+    <a href="#">
+      <img class="header__image" src="./images/football.png" alt="logo__item" />
+      <img class="header__arrow" src="./images/down.png" alt="logo__item" />
+    </a>
+    <img class="header__image" src="./images/ava.png" alt="logo__item" />
+    <img class="header__image" src="./images/bag.png" alt="logo__item" />
+  </header>
+
+  <main class="main">
+
+    <div class="content">
+
+      <section class="profile">
+        <article class="profile__card">
+          <img class="profile__ava" src="./images/avaMax.png" alt="avatar" />
+          <div class="profile__info">
+            <p class="profile__rate">89.40</p>
+            <p class="profile__name">Елишакашвили Михо</p>
+          </div>
+          <div class="profile_rate">
+            999<img src="./images/ratio.png" alt="rating" />
+          </div>
+          <div class="profile__edit">
+            <img class="cursor" src="./images/edit.png" alt="edit" />
+            <p class="profile__text cursor">Редактировать</p>
+          </div>
+        </article>
+        <article class="profile__texts">
+          <button class="profile__button dropdown cursor">
+            <img class="profile__image " src="./images/user.png" alt="profile" />Статистика</button>
+          <ul class="profile__ul dropdown-list">
+            <li class="profile__li cursor">&nbsp;&nbsp;Футбол</li>
+            <li class="profile__li cursor">&nbsp;&nbsp;Баскетбол</li>
+            <li class="profile__li cursor">&nbsp;&nbsp;Волейбол</li>
+          </ul>
+          <div class="profile__param cursor">
+            <img class="profile__image" src="./images/calendar.png" alt="" />Ближайшие игры
+          </div>
+          <div class="profile__param cursor">
+            <img class="profile__image" src="./images/report.png" alt="" />Игровые отчёты
+          </div>
+          <div class="profile__param cursor">
+            <img class="profile__image" src="./images/history.png" alt="" />История заказов
+          </div>
+          <div class="profile__param cursor">
+            <img class="profile__image" src="./images/logout.png" alt="" />Выйти
+          </div>
+        </article>
+      </section>
+
+      <section class="info">
+        <article class="tables">
+          <div class="achive">
+            <div class="achive__up">
+              <img class="achive__image" src="./images/achive5.png" alt="" />
+              <img class="achive__image" src="./images/achive5.png" alt="" />
+              <img class="achive__image" src="./images/achive99.png" alt="" />
+              <div>
+                <img class="achive__image_grey" src="./images/achive-grey.png" alt="" />
+                <img class="achive__image_grey" src="./images/achive-grey.png" alt="" />
+              </div>
+            </div>
+            <div class="achive__line"></div>
+            <div>
+              <img src="./images/achive.png" alt="" />
+              <img src="./images/achive.png" alt="" />
+              <img src="./images/achive.png" alt="" />
+              <img src="./images/achive.png" alt="" />
+              <img src="./images/achive.png" alt="" />
+            </div>
+          </div>
+
+          <div class="stats">
+            <div class="stats__buttons">
+              <button class="stats__button cursor">Все сезоны</button>
+              <button class="stats__button cursor">Сезон 2020/21</button>
+            </div>
+            <div class="stats__cards">
+              <div class="stats__card">
+                <p class="stats__name">Игры</p>
+                <p class="stats__num">36</p>
+              </div>
+              <div class="stats__card">
+                <p class="stats__name">Гол</p>
+                <p class="stats__num">67</p>
+              </div>
+              <div class="stats__card">
+                <p class="stats__name">Пас</p>
+                <p class="stats__num">136</p>
+              </div>
+              <div class="stats__card">
+                <p class="stats__name">Гол + пас</p>
+                <p class="stats__num">136</p>
+              </div>
+            </div>
+          </div>
+          <div class="cross"></div>
+          <div class="share">
+            <p class="share__text">Поделиться</p>
+            <div class="share__images">
+              <img class="cursor" src="./images/vk.png" alt="" />
+              <img class="cursor" src="./images/facebook.png" alt="" />
+              <img class="cursor" src="./images/link.png" alt="" />
+            </div>
+          </div>
+        </article>
+        <select class="format">
+          <option>Формат</option>
+          <option>Формат1</option>
+          <option>Формат2</option>
+          <option>Формат3</option>
+        </select>
+
+        <article class="table">
+          <table class="table__sort">
+            <thead class="table__head">
+              <tr>
+                <th style="pointer-events: none">Сезон</th>
+                <th><img class="table__arrow" src="./images/up-down.png" alt="" />Кол-во игр</th>
+                <th><img class="table__arrow" src="./images/up-down.png" alt="" />Гол</th>
+                <th><img class="table__arrow" src="./images/up-down.png" alt="" />Пас</th>
+                <th><img class="table__arrow" src="./images/up-down.png" alt="" />Гол + пас</th>
+                <th><img class="table__arrow" src="./images/up-down.png" alt="" />Рейтинг</th>
+              </tr>
+            </thead>
+            <tbody class="tbody">
+              <tr>
+                <td>Сезон 2021/2020</td>
+                <td>1</td>
+                <td>1</td>
+                <td>1</td>
+                <td>1</td>
+                <td>1</td>
+              </tr>
+              <tr>
+                <td>Сезон 2020/2019</td>
+                <td>2</td>
+                <td>2</td>
+                <td>2</td>
+                <td>2</td>
+                <td>2</td>
+              </tr>
+              <tr>
+                <td>Сезон 2019/2018</td>
+                <td>3</td>
+                <td>3</td>
+                <td>3</td>
+                <td>3</td>
+                <td>3</td>
+              </tr>
+              <tr>
+                <td>Сезон 2018/2017</td>
+                <td>4</td>
+                <td>4</td>
+                <td>4</td>
+                <td>4</td>
+                <td>4</td>
+              </tr>
+              <tr>
+                <td>Сезон 2017/2016</td>
+                <td>5</td>
+                <td>5</td>
+                <td>5</td>
+                <td>5</td>
+                <td>5</td>
+              </tr>
+            </tbody>
+          </table>
+        </article>
+      </section>
+    </div>
+
+    <footer class="footer">
+      <div class="footer__info">
+        <div class="footer__logos">
+          <img class="footer__logo" src="./images/logo__black.svg" alt="logo" />
+          <div class="footer__shops">
+            <a href="#" target="_blank">
+              <img class="footer__shop" src="./images/google.png" alt="google" />
+            </a>
+            <a href="#" target="_blank">
+              <img class="footer__shop" src="./images/apple.png" alt="apple" />
+            </a>
+
+
+          </div>
+          <div class="footer__icons_320">
+            <a href="#" target="_blank">
+              <img src="./images/instagram.png" class="footer__icon" alt="instagram" />
+            </a>
+            <a href="#" target="_blank">
+              <img src="./images/vk.png" class="footer__icon" alt="vk" />
+            </a>
+            <a href="#" target="_blank">
+              <img src="./images/facebook.png" class="footer__icon" alt="facebook" />
+            </a>
+            <a href="#" target="_blank">
+              <img src="./images/youtube.png" class="footer__icon" alt="youtube" />
+            </a>
+            <a href="#" target="_blank">
+              <img src="./images/telegram.png" class="footer__icon" alt="telegram" />
+            </a>
+            <a href="#" target="_blank">
+              <img src="./images/whatsapp.png" class="footer__icon" alt="whatsapp" />
+            </a>
+          </div>
+          <p class="footer__contacts">Наши контакты</p>
+          <div class="footer__contact">
+            <img class="footer__image" src="./images/phone.png" alt="phone" />+7 (495) 109-03-09
+          </div>
+          <div class="footer__contact">
+            <img class="footer__image" src="./images/mail.png" alt="mail" />go@crossball.ru
+          </div>
+        </div>
+        <div class="footer__columns">
+          <div class="footer__column">
+            <h3 class="footer__title">Разделы</h3>
+            <a href="#" target="_blank" class="footer__text">Главная</a>
+            <a href="#" target="_blank" class="footer__text">Расписание</a>
+            <a href="#" target="_blank" class="footer__text">Игровые отчёты</a>
+            <a href="#" target="_blank" class="footer__text">Статистика</a>
+          </div>
+          <div class="footer__column">
+            <h3 class="footer__title">Виды спорта</h3>
+            <a href="#" target="_blank" class="footer__text">Футбол</a>
+            <a href="#" target="_blank" class="footer__text">Баскетбол</a>
+            <a href="#" target="_blank" class="footer__text">Волейбол</a>
+          </div>
+          <div class="footer__column">
+            <h3 class="footer__title">Полезное</h3>
+            <a href="#" target="_blank" class="footer__text">Как записаться?</a>
+            <a href="#" target="_blank" class="footer__text">Ответы на вопросы</a>
+            <a href="#" target="_blank" class="footer__text">Достижения</a>
+          </div>
+          <div class="footer__column">
+            <h3 class="footer__title">Чё почём</h3>
+            <a href="#" target="_blank" class="footer__text">Абонементы</a>
+            <a href="#" target="_blank" class="footer__text">Корп. клиентам</a>
+            <a href="#" target="_blank" class="footer__text">Партнёры</a>
+          </div>
+        </div>
+      </div>
+      <div class="footer__line"></div>
+      <div class="footer__copyright">
+        <p class="footer__span">&#169;&nbsp;Все права защищены</p>
+        <div class="footer__icons">
+          <a href="#" target="_blank">
+            <img src="./images/instagram.png" class="footer__icon" alt="instagram" />
+          </a>
+          <a href="#" target="_blank">
+            <img src="./images/vk.png" class="footer__icon" alt="vk" />
+          </a>
+          <a href="#" target="_blank">
+            <img src="./images/facebook.png" class="footer__icon" alt="facebook" />
+          </a>
+          <a href="#" target="_blank">
+            <img src="./images/youtube.png" class="footer__icon" alt="youtube" />
+          </a>
+          <a href="#" target="_blank">
+            <img src="./images/telegram.png" class="footer__icon" alt="telegram" />
+          </a>
+          <a href="#" target="_blank">
+            <img src="./images/whatsapp.png" class="footer__icon" alt="whatsapp" />
+          </a>
+        </div>
+        <p class="footer__span">Cделали в Spans</p>
+      </div>
+    </footer>
+  </main>
+  <script src="./js/index.js"></script>
+</body>
+
+</html>
